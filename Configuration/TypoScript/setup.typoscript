@@ -206,6 +206,44 @@ lib.bootstrap_grids {
             106.if.isTrue.field = flexform_tabTitle6
         }
     }
+    
+    10tabs < .6tabs
+    10tabs {
+        prepend {
+            70 < .10
+            70.value = <li class="nav-item"><a class="nav-link" id="nav-c{field:uid}-tab7" data-toggle="tab" href="#nav-c{field:uid}-c7" role="tab" aria-controls="nav-c{field:uid}-c7">{field:flexform_tabTitle7}</a></li>
+            70.if.isTrue.field = flexform_tabTitle7
+
+            80 < .10
+            80.value = <li class="nav-item"><a class="nav-link" id="nav-c{field:uid}-tab8" data-toggle="tab" href="#nav-c{field:uid}-c8" role="tab" aria-controls="nav-c{field:uid}-c8">{field:flexform_tabTitle8}</a></li>
+            80.if.isTrue.field = flexform_tabTitle8
+            
+            90 < .10
+            90.value = <li class="nav-item"><a class="nav-link" id="nav-c{field:uid}-tab9" data-toggle="tab" href="#nav-c{field:uid}-c9" role="tab" aria-controls="nav-c{field:uid}-c9">{field:flexform_tabTitle9}</a></li>
+            90.if.isTrue.field = flexform_tabTitle9
+
+            110 < .10
+            110.value = <li class="nav-item"><a class="nav-link" id="nav-c{field:uid}-tab10" data-toggle="tab" href="#nav-c{field:uid}-c10" role="tab" aria-controls="nav-c{field:uid}-c10">{field:flexform_tabTitle10}</a></li>
+            110.if.isTrue.field = flexform_tabTitle10
+        }
+        columns {
+            107 < .101
+            107.wrap = <div class="tab-pane fade" id="nav-c{field:uid}-c7" role="tabpanel" aria-labelledby="nav-c{field:uid}-tab7">|</div>
+            107.if.isTrue.field = flexform_tabTitle7
+
+            108 < .101
+            108.wrap = <div class="tab-pane fade" id="nav-c{field:uid}-c8" role="tabpanel" aria-labelledby="nav-c{field:uid}-tab8">|</div>
+            108.if.isTrue.field = flexform_tabTitle8
+            
+            109 < .101
+            109.wrap = <div class="tab-pane fade" id="nav-c{field:uid}-c9" role="tabpanel" aria-labelledby="nav-c{field:uid}-tab9">|</div>
+            109.if.isTrue.field = flexform_tabTitle9
+
+            110 < .101
+            110.wrap = <div class="tab-pane fade" id="nav-c{field:uid}-c10" role="tabpanel" aria-labelledby="nav-c{field:uid}-tab10">|</div>
+            110.if.isTrue.field = flexform_tabTitle10
+        }
+    }
 
     # Accordion
     accordion  < lib.gridelements.defaultGridSetup
@@ -299,6 +337,7 @@ tt_content.gridelements_pi1.20.10.setup {
     tabsSimple < lib.bootstrap_grids.simpleTabs
     tabs4 < lib.bootstrap_grids.4tabs
     tabs6 < lib.bootstrap_grids.6tabs
+    tabs10 < lib.bootstrap_grids.10tabs
     xSimpleRow < lib.bootstrap_grids.simpleRow
 }
 

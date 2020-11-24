@@ -21,6 +21,9 @@
             <trans-unit id="tabs6.title" xml:space="preserve" approved="yes">
 				<source>Tabs (6)</source><target state="translated">Tabs (6)</target>
 			</trans-unit>
+            <trans-unit id="tabs10.title" xml:space="preserve" approved="yes">
+                <source>Tabs (10)</source><target state="translated">Tabs (10)</target>
+            </trans-unit>
             <trans-unit id="accordion.title" xml:space="preserve" approved="yes">
 				<source>Accordion from content</source><target state="translated">Accordion aus dem Inhalt</target>
 			</trans-unit>
@@ -64,6 +67,18 @@
             </trans-unit>
             <trans-unit id="celayout.tab6" xml:space="preserve" approved="yes">
 				<source>Tab 6</source><target state="translated">Inhalt Tab 6</target>
+            </trans-unit>
+            <trans-unit id="celayout.tab7" xml:space="preserve" approved="yes">
+                <source>Tab 7</source><target state="translated">Inhalt Tab 7</target>
+            </trans-unit>
+            <trans-unit id="celayout.tab8" xml:space="preserve" approved="yes">
+                <source>Tab 8</source><target state="translated">Inhalt Tab 8</target>
+            </trans-unit>
+            <trans-unit id="celayout.tab9" xml:space="preserve" approved="yes">
+                <source>Tab 9</source><target state="translated">Inhalt Tab 9</target>
+            </trans-unit>
+            <trans-unit id="celayout.tab10" xml:space="preserve" approved="yes">
+                <source>Tab 10</source><target state="translated">Inhalt Tab 10</target>
             </trans-unit>
             <trans-unit id="celayout.accordionElements" xml:space="preserve" approved="yes">
 				<source>Accordion elements</source><target state="translated">Accordion Elemente</target>
@@ -170,6 +185,12 @@
 			<trans-unit id="grid.label.tabTitle8" xml:space="preserve" approved="yes">
 				<source>Title 8</source>
 			<target state="translated">Titel 8</target></trans-unit>
+			<trans-unit id="grid.label.tabTitle9" xml:space="preserve" approved="yes">
+				<source>Title 9</source>
+			<target state="translated">Titel 9</target></trans-unit>
+			<trans-unit id="grid.label.tabTitle10" xml:space="preserve" approved="yes">
+				<source>Title 10</source>
+			<target state="translated">Titel 10</target></trans-unit>
 
             <trans-unit id="grid.label.none" xml:space="preserve" approved="yes">
 				<source>none</source>

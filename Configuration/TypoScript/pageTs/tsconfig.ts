@@ -189,6 +189,61 @@ tx_gridelements {
             flexformDS = FILE:EXT:bootstrap_grids/Configuration/FlexForm/flexform_tabs6.xml
         }
 
+        tabs10 {
+            title = LLL:EXT:bootstrap_grids/Resources/Private/Language/locallang_db.xlf:tabs10.title
+            description = LLL:EXT:bootstrap_grids/Resources/Private/Language/locallang_db.xlf:tabs10.description
+            iconIdentifier = tx-bootstrapgrids-tabs10
+            frame = 2
+            topLevelLayout = 0
+            config {
+                colCount = 10
+                rowCount = 1
+                rows.1.columns {
+                    1 {
+                        name = LLL:EXT:bootstrap_grids/Resources/Private/Language/locallang_db.xlf:celayout.tab1
+                        colPos = 101
+                    }
+                    2 {
+                        name = LLL:EXT:bootstrap_grids/Resources/Private/Language/locallang_db.xlf:celayout.tab2
+                        colPos = 102
+                    }
+                    3 {
+                        name = LLL:EXT:bootstrap_grids/Resources/Private/Language/locallang_db.xlf:celayout.tab3
+                        colPos = 103
+                    }
+                    4 {
+                        name = LLL:EXT:bootstrap_grids/Resources/Private/Language/locallang_db.xlf:celayout.tab4
+                        colPos = 104
+                    }
+                    5 {
+                        name = LLL:EXT:bootstrap_grids/Resources/Private/Language/locallang_db.xlf:celayout.tab5
+                        colPos = 105
+                    }
+                    6 {
+                        name = LLL:EXT:bootstrap_grids/Resources/Private/Language/locallang_db.xlf:celayout.tab6
+                        colPos = 106
+                    }
+                    7 {
+                        name = LLL:EXT:bootstrap_grids/Resources/Private/Language/locallang_db.xlf:celayout.tab7
+                        colPos = 107
+                    }
+                    8 {
+                        name = LLL:EXT:bootstrap_grids/Resources/Private/Language/locallang_db.xlf:celayout.tab8
+                        colPos = 108
+                    }
+                    9 {
+                        name = LLL:EXT:bootstrap_grids/Resources/Private/Language/locallang_db.xlf:celayout.tab9
+                        colPos = 109
+                    }
+                    10 {
+                        name = LLL:EXT:bootstrap_grids/Resources/Private/Language/locallang_db.xlf:celayout.tab10
+                        colPos = 110
+                    }
+                }
+            }
+            flexformDS = FILE:EXT:bootstrap_grids/Configuration/FlexForm/flexform_tabs10.xml
+        }
+
         accordion {
             title = LLL:EXT:bootstrap_grids/Resources/Private/Language/locallang_db.xlf:accordion.title
             description = LLL:EXT:bootstrap_grids/Resources/Private/Language/locallang_db.xlf:accordion.description

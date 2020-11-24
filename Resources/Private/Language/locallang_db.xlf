@@ -39,6 +39,12 @@
             <trans-unit id="tabs6.description" xml:space="preserve">
 				<source>For multiple content elements in one tab. 6 or less tabs.</source>
 			</trans-unit>
+            <trans-unit id="tabs10.title" xml:space="preserve">
+                <source>Tabs (10)</source>
+            </trans-unit>
+            <trans-unit id="tabs10.description" xml:space="preserve">
+                <source>For multiple content elements in one tab. 10 or less tabs.</source>
+            </trans-unit>
             <trans-unit id="accordion.title" xml:space="preserve">
 				<source>Accordion from content</source>
 			</trans-unit>
@@ -88,6 +94,18 @@
             </trans-unit>
             <trans-unit id="celayout.tab6" xml:space="preserve">
 				<source>Tab 6</source>
+            </trans-unit>
+            <trans-unit id="celayout.tab7" xml:space="preserve">
+                <source>Tab 7</source>
+            </trans-unit>
+            <trans-unit id="celayout.tab8" xml:space="preserve">
+                <source>Tab 8</source>
+            </trans-unit>
+            <trans-unit id="celayout.tab9" xml:space="preserve">
+                <source>Tab 9</source>
+            </trans-unit>
+            <trans-unit id="celayout.tab10" xml:space="preserve">
+                <source>Tab 10</source>
             </trans-unit>
             <trans-unit id="celayout.accordionElements" xml:space="preserve">
 				<source>Accordion elements</source>
@@ -203,6 +221,12 @@
 			<trans-unit id="grid.label.tabTitle8" xml:space="preserve">
 				<source>Title 8</source>
 			</trans-unit>
+            <trans-unit id="grid.label.tabTitle9" xml:space="preserve">
+                <source>Title 9</source>
+            </trans-unit>
+            <trans-unit id="grid.label.tabTitle10" xml:space="preserve">
+                <source>Title 10</source>
+            </trans-unit>
 
             <trans-unit id="grid.sheet.rowClasses" xml:space="preserve">
 				<source>Row classes</source>
